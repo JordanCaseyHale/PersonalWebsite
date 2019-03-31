@@ -1,3 +1,8 @@
+/* main.css
+* Made by Jordan Hale
+* Version 1.01 - 31/03/2019
+*/
+
 header {
 	width: 90%;
 	float: right;
@@ -6,7 +11,8 @@ header {
 	font-size: 1em;
 	font-family: gill shadow;
 	text-align: center;
-	background-color: grey;
+	background-color: #00BFFF;
+	border-radius: 10px 10px 0 0;
 }
 
 nav ul li {
