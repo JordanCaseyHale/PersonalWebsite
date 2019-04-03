@@ -1,6 +1,6 @@
 /* main.css
 * Made by Jordan Hale
-* Version 1.01 - 31/03/2019
+* Version 1.02 - 03/04/2019
 */
 
 header {
@@ -22,5 +22,11 @@ nav ul li {
 
 footer {
 	text-align: center;
+}
+
+#Project {
+	margin: 0 7.5% 0 7.5%;
+	padding: 0 2.5% 0.5% 2.5%;
+	border: 2px solid rgb(0,0,0);
 }
 
