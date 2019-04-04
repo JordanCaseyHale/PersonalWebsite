@@ -15,14 +15,10 @@
 
 <body>
 	<canvas id="canvas" width="800" height="750"></canvas>
-	
-	<p>
-		<button id="feed">Feed</button>
-		<button id="hover">Hover Down</button>
-		<button id="swoop">Swoop</button>
-		<button id="reset">Reset</button>
-	</p>
-	<p style="float: right"><h4 style="margin: 0">Buttons:</h4>
+
+	<script src="./js/animate.js"></script>
+
+	<div style="float: right"><p><h4 style="margin: 0">Buttons:</h4>
 	Feed - Gives the bird a piece of feed which it then eats<br>
 	Hover - The bird starts to hover down towards the floor<br>
 	Swoop - The bird goes into a small dive and the flys back up to the level it was at<br>
@@ -30,9 +26,15 @@
 	<h4 style="margin: 0">Clicking on the canvas:</h4>
 	Branch - Clicking on the Branch will make the bird sit on the branch<br>
 	Eye - Clicking on the eye of the bird will make it change to a random colour<br>
-	Anywhere else - Clicking anywhere else on the canvas will make the bird move to that position</p>
+	Anywhere else - Clicking anywhere else on the canvas will make the bird move to that position</p></div>
+
+	<p style="width: 25%">
+		<button id="feed">Feed</button>
+		<button id="hover">Hover Down</button>
+		<button id="swoop">Swoop</button>
+		<button id="reset">Reset</button>
+	</p>
 	
-	<script src="./js/animate.js"></script>
 </body>
 </html>
 
