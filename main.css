@@ -4,16 +4,19 @@
 */
 
 #Name {
-	margin: 50% 0 0 0;
+	margin: 25% 0 0 0;
 	text-align: center;
 	background color: blue;
 
 }
 
+li {
+	display: inline;
+}
+
 nav {
 	text-align: center;
 	vertical-align: bottom;
-	display: inline;
 	border-bottom: 1px;
 	background-color: green;
 }
