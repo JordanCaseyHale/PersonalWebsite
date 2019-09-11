@@ -1,14 +1,20 @@
 /* main.css
 * Made by Jordan Hale
-* Version 2 - last updated: 10/09/2019
+* Version 2 - last updated: 11/09/2019
 */
 
 #Name {
-	margin: 0 50% 0 50%;
+	margin: 50% 0 0 0;
+	text-align: center;
+	background color: blue;
+
 }
 
 nav {
 	text-align: center;
 	vertical-align: bottom;
+	display: inline;
+	border-bottom: 1px;
+	background-color: green;
 }
 
