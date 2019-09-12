@@ -1,12 +1,14 @@
 /* main.css
 * Made by Jordan Hale
-* Version 2 - last updated: 11/09/2019
+* Version 2 - last updated: 12/09/2019
 */
 
 #Name {
-	margin: 25% 0 0 0;
+	margin: 0;
+	padding: 25%;
+	font-size: 3em;
 	text-align: center;
-	background-image: "./images/JavaScriptBird.png"
+	background-image: "./images/RyanGosling.jpg"
 
 }
 
