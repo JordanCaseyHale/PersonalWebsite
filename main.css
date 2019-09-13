@@ -9,7 +9,7 @@
 	font-size: 3em;
 	text-align: center;
 	background-image: url("./images/RyanGosling.jpg");
-
+	background-size: 100%;
 }
 
 li {
