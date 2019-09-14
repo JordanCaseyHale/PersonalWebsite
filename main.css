@@ -1,6 +1,6 @@
 /* main.css
 * Made by Jordan Hale
-* Version 2 - last updated: 13/09/2019
+* Version 2 - last updated: 14/09/2019
 */
 
 #Name {
@@ -10,10 +10,16 @@
 	text-align: center;
 	background-image: url("./images/RyanGosling.jpg");
 	background-size: 100%;
+	background-position: center;
+}
+
+main {
+	size: 95%
 }
 
 li {
 	display: inline;
+	padding: 5%;
 }
 
 nav {
@@ -21,5 +27,11 @@ nav {
 	vertical-align: bottom;
 	border-bottom: 1px;
 	background-color: green;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
