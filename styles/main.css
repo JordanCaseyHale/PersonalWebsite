@@ -4,4 +4,42 @@
 */
 
 
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+header img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.logo, .nav-option {
+	display: inline-flex;
+}
+
+.logo {
+	align-items: center;
+}
+
+.logo {
+	flex: 1;
+}
+nav {
+	flex: 2;
+}
 
