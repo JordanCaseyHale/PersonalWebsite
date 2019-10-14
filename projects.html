@@ -1,6 +1,6 @@
 <!-- project.html
     Made by Jordan Hale
-    Version 2 - last updated: 17/09/19
+    Version 3 - last updated: 14/10/19
 -->
 
 <!DOCTYPE html>
@@ -8,36 +8,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jordan Hale</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./styles/normalize.css">
 	<link rel="stylesheet" href="./styles/main.css">
-	<link rel="stylesheet" href="./styles/nav.css">
-	<link rel="stylesheet" href="./styles/projects.css">
 </head>
 <body>
+
+	<header>
+		<div class="logo">
+			<img src="./images/RyanGosling.jpg" alt="logo">
+			<h4 class="logo-name">Jordan Hale</h4>
+		</div>
+		<nav>
+			<div>
+				<ul class="nav-options">
+					<li><a class="nav-option" href="./index.html">Home</a></li>
+					<li><a class="nav-option" href="./aboutme.html">About Me</a></li>
+					<li><a class="nav-option" href="./contact.html">Contact Information</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 	<main>
-		<header>
-			<h1>Projects</h1>
-		</header>
-		<div id="Project">
-			<h3>JavaScript Bird</h3>
-			<p>Made for a module assignment the bird has a number of different actions it can perform from various user inputs. It is all on done using JavaScript (with Html and CSS) so that it can be run on a website.</p>
-			<img src="./images/JavaScriptBird.png" alt="A picture of the bird box project" width="200" height="150">
-			<a href="./Bird/bird.html">Click Here to see it in action</a>
-			<p>Date finished: 10th December 2018</p>
-		</div>
-		<div id="Project">
-			<h3>Simple 3D Game</h3>
-			<p>A simple game which involves the white square player needing to avoid various objects/enemies to get the golden balls to score with an increasing different as the player's score gets higher</p> 
-			<img src="./images/Golden Balls.png" alt="A picture of the game" width="200" height="150">
-			<p>Date finished: August 2017</p>
-		</div>
+		<section class="center">
+			<div id="Project">
+				<h3>JavaScript Bird</h3>
+				<p>Made for a module assignment the bird has a number of different actions it can perform from various user inputs. It is all on done using JavaScript (with Html and CSS) so that it can be run on a website.</p>
+				<img src="./images/JavaScriptBird.png" alt="A picture of the bird box project" width="200" height="150">
+				<a href="./Bird/bird.html">Click Here to see it in action</a>
+				<p>Date finished: 10th December 2018</p>
+			</div>
+			<div id="Project">
+				<h3>Simple 3D Game</h3>
+				<p>A simple game which involves the white square player needing to avoid various objects/enemies to get the golden balls to score with an increasing different as the player's score gets higher</p> 
+				<img src="./images/Golden Balls.png" alt="A picture of the game" width="200" height="150">
+				<p>Date finished: August 2017</p>
+			</div>
+		</section>
 	</main>
-	<nav>
-		<ul>
-			<li><a href="/PersonalWebsite/index.html">Home</a></li>
-			<li><a href="/PersonalWebsite/aboutme.html">About Me</a></li>
-			<li><a href="/PersonalWebsite/contact.html">Contact Options</a></li>
-		</ul>
-	</nav>
 </body>
 </html>
