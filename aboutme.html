@@ -1,6 +1,6 @@
 <!-- aboutme.html
     Made By Jordan hale
-    Version 2 - last updated: 29/09/19
+    Version 3 - last updated: 14/10/19
 -->
 
 <!DOCTYPE html>
@@ -8,27 +8,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jordan Hale</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./styles/normalize.css">
 	<link rel="stylesheet" href="./styles/main.css">
-	<link rel="stylesheet" href="./styles/nav.css">
-	<link rel="stylesheet" href="./styles/aboutme.css">
 </head>
 <body>
 	<header>
-		<h1>About Me</h1>
+		<div class="logo">
+			<img src="./images/RyanGosling.jpg" alt="logo">
+			<h4 class="logo-name">Jordan Hale</h4>
+		</div>
+		<nav>
+			<div>
+				<ul class="nav-options">
+					<li><a class="nav-option" href="./index.html">Home</a></li>
+					<li><a class="nav-option" href="./projects.html">Projects</a></li>
+					<li><a class="nav-option" href="./contact.html">Contact Information</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
-	<body>
-		<p>I'm currently a student at The University Of Sheffield studying computer science</p>
-		<h3>Hobbies</h3>
-		<h4>Snowboarding</h4>
-		<p>I enjoy snowboarding in my spare time as I find it fun. Recently I have started to learn freestyle as doing tricks are difficult and require determination to learn.</p>
-	</body>
-	<nav>
-		<ul>
-			<li><a href="/PersonalWebsite/index.html">Home</a></li>
-			<li><a href="/PersonalWebsite/projects.html">Projects</a></li>
-			<li><a href="/PersonalWebsite/contact.html">Contact Options</a></li>
-		</ul>
-	</nav>
+	<main>
+		<section class="aboutme">
+			<p>I'm currently a student at The University Of Sheffield studying computer science</p>
+			<h3>Hobbies</h3>
+			<h4>Snowboarding</h4>
+			<p>I enjoy snowboarding in my spare time as I find it fun. Recently I have started to learn freestyle as doing tricks are difficult and require determination to learn.</p>
+		</section>
+	</main>
 </body>
 </html>

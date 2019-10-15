@@ -1,23 +1,134 @@
 /* main.css
 * Made by Jordan Hale
-* Version 2 - last updated: 16/09/2019
+* Version 3 - last updated: 14/10/2019
 */
 
-#Name {
-	margin: 0;
-	padding: 25%;
-	font-size: 3em;
-	text-align: center;
-	background-image: url("../images/RyanGosling.jpg");
-	background-size: 100%;
-	background-position: center;
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
-main {
-	size: 95%
+
+body, button {
+	font-family: 'Oswald', sans-serif;
 }
 
-li {
-	display: inline;
-	padding: 5%;
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+header img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.logo, .nav-options {
+	display: flex;
+}
+
+.logo {
+	align-items: center;
+	font-weight: 200;
+	flex: 1;
+}
+
+.logo-name {
+	margin-left: 5px;
+}
+
+.nav-options {
+	justify-content: space-around;
+	list-style: none;
+}
+
+.nav-option {
+	color: #33a0ee;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav {
+	flex: 2;
+}
+
+.center {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+
+.text {
+	flex: 1;
+}
+
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 500px;
+	background: linear-gradient(to right, #0000ff, #000001);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+	font-size: 30px;
+	margin-top: 5px;
+	color: #585772;
+}
+
+.buttons {
+	padding-top: 50px;
+}
+
+.button-facebook {
+	border: 2px solid #c36cbb;
+	background: transparent;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.button-github {
+	background: transparent;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.picture {
+	flex: 1;
+}
+
+.picture img {
+	height: 40vh;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
+}
+
+.bck-img {
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	opacity: 0.7;
+	height: 80%;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
