@@ -1,6 +1,6 @@
 /* main.css
 * Made by Jordan Hale
-* Version 3 - last updated: 14/10/2019
+* Version 3 - last updated: 20/10/2019
 */
 
 
@@ -131,4 +131,17 @@ nav {
 		opacity: 1;
 		transform: translateY(0px);
 	}
+}
+
+.aboutme {
+	margin: 0 5% 0 5%;
+}
+
+.info {
+	width: 45%;
+	float: left;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 5px;
+	margin: 10px;
 }
