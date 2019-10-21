@@ -98,6 +98,10 @@ nav {
 	margin-right: 30px;
 }
 
+.media-button:focus {
+	outline: none;
+}
+
 .picture {
 	flex: 1;
 }
