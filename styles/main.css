@@ -94,6 +94,7 @@ nav {
 	height: 50px;
 	cursor: pointer;
 	margin-right: 30px;
+	button:focus {outline:0;}
 }
 
 .picture {
