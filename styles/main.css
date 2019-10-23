@@ -1,6 +1,6 @@
 /* main.css
 * Made by Jordan Hale
-* Version 3 - last updated: 21/10/2019
+* Version 3 - last updated: 23/10/2019
 */
 
 
@@ -28,18 +28,28 @@ header img {
 	max-height: 50px;
 }
 
-.logo, .nav-options {
+.logo, .nav-options, .logo-home {
 	display: flex;
+	align-items: center;
 }
 
 .logo {
-	align-items: center;
 	font-weight: 200;
 	flex: 1;
 }
 
 .logo-name {
 	margin-left: 5px;
+}
+
+.logo-home {
+	text-decoration: none;
+	color: #000000;
+}
+
+.logo-text {
+	font-weight: 100;
+	font-size: 18px;
 }
 
 .nav-options {
